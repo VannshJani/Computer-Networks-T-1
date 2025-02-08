@@ -3,7 +3,7 @@
 # Client-Server Task Processing & Benchmarking
 
 ## Overview
-This project consists of two primary problems:
+
 1. **Client-Server Task Processing**: A client interacts with a server that processes different tasks such as case conversion, mathematical expression evaluation, and string reversal.
 2. **Client-Server Benchmarking**: A benchmarking task measures the performance of different server implementations by running multiple concurrent clients and recording execution time.
 
