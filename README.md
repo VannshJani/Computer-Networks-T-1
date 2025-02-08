@@ -101,16 +101,10 @@ The benchmarking script:
 - Records execution times in `latency_results3.txt`.
 - Generates a performance plot.
 
-### Expected Graph Output
-- **X-axis**: Number of concurrent clients (10, 20, ..., 100).
-- **Y-axis**: Execution time (latency).
-
-This allows performance comparison between different server architectures.
-
 ---
 ### Client2.py Note
 A long string has been hardcoded in `client2.py` and used to showcase the difference between the three types of servers.- `server.py` and `client.py` implement a general task-processing client-server model.
 - `server2.py`, `client2.py`, and `benchmarking.py` facilitate benchmarking for different server architectures.
-- The project demonstrates the trade-offs between single-process, multi-process, and multi-threaded server designs in terms of performance.
+
 
 
